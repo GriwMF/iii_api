@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://iii.ru/api/2.0/json/Chat.request
+    body:
+      encoding: US-ASCII
+      string: |
+        JBYnCW0xPEEjai9UPxAQFiE6Llg/ICNcNCBtAzAZLVs4NxEMIAN1GSAqeFw4
+        DiMCeicPCD4iLyUIBjBXbkUpTxNfbDA4EgImRVUiNQ86GEJUZA==
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 20 Mar 2015 14:42:41 GMT
+      Content-Type:
+      - application/x-json-encrypted
+      Content-Length:
+      - '688'
+      X-Powered-By:
+      - PHP/5.4.36-1~dotdeb.1
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Last-Modified:
+      - Mon, 26 Jul 2027 05:00:00 GMT
+      X-Cache:
+      - MISS from dpk-proxy
+      X-Cache-Lookup:
+      - MISS from dpk-proxy:3128
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: FhYnHHouK0MbZScMPRdTBQspMRQXNztfCx5qRTAjEF4vJ2lXJxVYXyIqfBQ7GBFfbSc5Gz8nG0UoNiIQKSMdETkrcR4mIB5UPyE/Dm0gQBUxJjJXPCE2GT07MBk6JToFNyYmVycqIh48LXUYKGQ4CyohNBUiIW0HKicyBS8pIwA2L3UbLyo1HzkvMAQ9KyMOeD4wBTdpOAk+EGIPCzomED4eOAoKM2FHJzMhGy08dRYgPXEXNyZ4Gy8wJwJpJRBQPyUyDjwkCxEpMTRaOSlYVSQiNx8rMVYdbDA+Qg0mKkk9DDoRASckXjk2LgoLOjIQJBQxCgAxYV8oZDACFj0gUiEfSBMWOyZCLBcoHCchWF0sKjYNOyEdQj4rPB96IB1DNGknVT8/WF0iKjZaKkUKWCMjcQ0kMhBeODBxGzcVWF8iKnxcOEURX20nORsoJxtFKDYiWj4mUUcsJ3UTJyIvHCotOwNuNyYbJTgfET8hIUIoHx1fOSUlEzU9MUMNOjJZKVdmDAJ0N1E/EyMBCDFhQD9dIl0oBBoANCB2Hzg2DBwuDSQAOgEjVXkuN0MaVD9TPzEQHyYDIVUSI0MBCiBMAQsdIVkXGnYSDDpXBw0Da14AIw0GRCQEFxAIKkIHHCVTBjYSSRAoGRYzMVIMPQhbRUI0DEslLS1QKCY5RCwZJAcSMElU
+    http_version: 
+  recorded_at: Fri, 20 Mar 2015 14:42:41 GMT
+recorded_with: VCR 2.9.3

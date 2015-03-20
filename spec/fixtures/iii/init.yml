@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://iii.ru/api/2.0/json/Chat.init/6de4ced8-434b-4803-8b46-32a64b92eb8a/some-valid-uri
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 20 Mar 2015 14:42:41 GMT
+      Content-Type:
+      - application/x-json-encrypted
+      Content-Length:
+      - '1392'
+      X-Powered-By:
+      - PHP/5.4.36-1~dotdeb.1
+      Set-Cookie:
+      - iiiszf2prd=v9ffonf43tajkiqr8aevpi0ts3; expires=Sat, 19-Mar-2016 14:42:41 GMT;
+        path=/; domain=iii.ru
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Last-Modified:
+      - Mon, 26 Jul 2027 05:00:00 GMT
+      X-Cache:
+      - MISS from dpk-proxy
+      X-Cache-Lookup:
+      - HIT from dpk-proxy:3128
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: FhYnHHouK0MbZScMPRdTBTZdMVApNztfJwp1ADMeDAQvHnUYIi1tXyIEaBgvMAUFeRpZCCs1BAMpJSoTKiEkFDo7cg4kCzAOPSYnB2kdJh4MJjZJPQsDGz80Mx0tOR8AIAQxGSUtORkGCHkGKU4FCBAEJxY2NmlGOwMfQywpPBEjIVhdLCo2DzshHUI+KzwfbjAdQzRpJ1U/P1hdIio2Wj0iClgjI3ENJiciVjk3ag0KFHYbCyZgBS4aGgdtJyoIPww5HjwfJlQ+HywTLgYQVCQcAgw+MisDejchBiY6Ilc8HzoZKjc0GS42JRMmBAMXIAMlHD0yahw8dycIPQczGwgydkk+LC4LLjo4WiAzR10sPVdHOFUjHz87PFV6HDQGNmozUCsAEQEhBDYUPCM/WTQgbh8mMA8GOhpTCDQuFQY2A1UAOzcgWHoOLhIRUzYHLBwhUAYiM1YQN3ENJgwjEj8hLwNsMD4GMDYPShBWJgcBMCxYOTU2UCMtOUsmKjpYKiFDXTxjRwgrEyBWIDFxBz8VAAYuOjsDNA4RAC8DLgw4DSxBPV0gVnkcAhs2QwUMKC4VBDYDH0wpNztfNApmBApGPRw8GmoNDUt2XjkpQRg7I1BfRCAhVz81IgMoNjJTLRhUSBEobhINMVNVOw8BDG07RAEgBD4UPzEbBSo3AQU4NjFaNSoyVCcpPlsqHBEHPxInUT49MFE2IXEHKwUuCCxfIwMhNGlaBBctGQMKIxoRKDsOaRwVHyB6Dh8oKlcFDAMxWiksIDwPMBEbC0c+XzweTxkjPWEZIi1aBQMjL1p5UVFQEA8yHSoYNlcCJhJJOQJqDTMLP1EoMScAbUE5QSc9VxAoDyIbKSQvBToLMR02FDoVJCo2WikPdVw/WjcWOwMRVSUIdgUrOC0BOzo8ACEJchUFOTIGKAoJBhI3PzB6Lg1CMEcZDDsQVwU2OVJKEjNLED0wcR4mHSEGOTdqCQwUTBo2Nn8cA0ZdB28KIQgUMhQdPxgXSyshL0g5FWkQMwwCDzw2XgxtJCYfJTkuVysIPQYoNyQWLTUmAiEqNhInBB8BLQ9QWC9NIBQrPisRNjJxGT0CPRoDJSMFIiRqFTs2KRkFITcDETg7E0QuNBs2RzcWOxQRBAopKVYXI0dZJw1PDw8sWBw8Gm4ODEpELDUmdwACGjsUaQkYUREPNRgpMTlQB0UvERddTBEzPigfOw8BA2wwPgcNNjVaI1dJGT8rKAc7CzUaJgMfWjg2JVkFJmlZPE0wEhFbNBElCGYZFjcpHjA6FQUNCXEFLgAUHAJUNxsXJzsfaRwKCh9+AQwrLnJePSkLSBEzSwcnDU8PJTciXxYNaVcjLXEXIQRKXiwePFxtO1gSOwwPHywYHEkpNi8Z
+    http_version: 
+  recorded_at: Fri, 20 Mar 2015 14:42:41 GMT
+recorded_with: VCR 2.9.3
